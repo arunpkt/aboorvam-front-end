@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="author" content="Arunkumar M">
     <!-- description -->
-    <meta name="description" content="POS is good site for purchasing the stationary items">
+    <meta name="description" content="Aboorvam food products, the millet store offers wide variety of the value added millet and oil solution to lead healthy and happy life">
     <!-- keywords -->
     <meta name="keywords" content="Retails business, buy boards online">
     <!-- favicon -->
