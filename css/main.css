@@ -38,7 +38,7 @@ header a.logo {
     vertical-align: middle;
 }
 header a.logo img {
-    width: 200px;
+    width: 150px;
     height: auto;
 }
 header .logo {
@@ -275,6 +275,10 @@ Footer
 footer.footer {
     padding: 25px 0;
     background-color: #f7f7f77d
+}
+footer.footer .logo img{
+    width: 150px;
+    height: auto;
 }
 h6.footer.logo {
     margin: auto;

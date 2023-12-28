@@ -9,9 +9,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="author" content="Arunkumar M">
     <!-- description -->
-    <meta name="description" content="POS is good site for purchasing the stationary items">
+    <meta name="description" content="Aboorvam food products, the millet store offers wide variety of the value added millet and oil solution to lead healthy and happy life">
     <!-- keywords -->
-    <meta name="keywords" content="Retails business, buy boards online">
+    <meta name="keywords" content="Millet Dosa mix, instant dosa mix, cold pressed oil">
     <!-- favicon -->
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri() ?>/images/favicon.ico">
     <?php wp_head();?>
@@ -57,12 +57,12 @@
                                 </div>
                                 <!-- Email Id -->
                                 <div class="col-md-4 float-right d-none d-md-block float-right text-right">
-                                    <a href="mailto:prakathiofficesupplies@gmail.com">prakathiofficesupplies@gmail.com</a>
+                                    <a href="mailto:aboorvamfoodproducts@gmail.com">aboorvamfoodproducts@gmail.com</a>
                                 </div>
                             </div>  
                         </div>
                         <div class="row mt-3">
-                                <div class="col-md-3 float-left p-0 d-none d-lg-block">
+                                <!-- <div class="col-md-3 float-left p-0 d-none d-lg-block">
                                     <div class="row contact_header">
                                         <div class="col-md-3">
                                             <i class="fa fa-headphones"></i>
@@ -72,7 +72,7 @@
                                            <p class="font-weight-bold"> +123 4567 8901</p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="col-md-9 float-right float-right text-right p-0">
                                     <div class="col-md-12 p-0">
                                         <div class="navbar-collapse collapse alt-font" id="navbar-collapse-toggle-1">

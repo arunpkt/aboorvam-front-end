@@ -123,3 +123,15 @@ function mytheme_add_woocommerce_support() {
 add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
 add_theme_support( 'wc-product-gallery-lightbox' );
 add_theme_support( 'wc-product-gallery-slider' );
+
+//Disable woo commerce side bar
+function disable_woo_commerce_sidebar() {
+	remove_action( 'woocommerce_sidebar', 'woocommerce_get_sidebar', 10); 
+}
+add_action('init', 'disable_woo_commerce_sidebar');
+
+//Disable woo commerce  Bread crumbs
+function remove_woocommerce_breadcrumbs() {
+    remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0 );
+}
+add_action( 'init', 'remove_woocommerce_breadcrumbs' );

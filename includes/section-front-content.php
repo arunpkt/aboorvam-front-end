@@ -58,7 +58,7 @@
                                 alt="London eye">
                             <div class="opacity-extra-medium bg-extra-dark-gray"></div>
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Buy anything from the stationary items</h5>
+                                <h5>Buy anything from  our wide variety of millet products</h5>
                                 <p>We pledged to provide the world class products</p>
                             </div>
                         </div>
@@ -67,7 +67,7 @@
                                 alt="London eye">
                             <div class="opacity-extra-medium bg-extra-dark-gray"></div>
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Buy anything from the stationary items</h5>
+                                <h5>Buy anything from the cold pressed oil products</h5>
                                 <p>We pledged to provide the world class products</p>
                             </div>
                         </div>
@@ -76,7 +76,7 @@
                                 alt="London eye">
                             <div class="opacity-extra-medium bg-extra-dark-gray"></div>
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Buy anything from the stationary items</h5>
+                                <h5>We can make the dosa instantly with Aboorvam instant mix</h5>
                                 <p>We pledged to provide the world class products</p>
                             </div>
                         </div>
@@ -147,49 +147,7 @@
 </section>
 
 <!-- Quick shop -->
-<section class="quick-shop">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-12 col-xs-12 lhs">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/team13.jpg"
-                                class="img-responsive"></a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/team18.jpg"
-                                class="img-responsive"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-9 col-sm-12 col-xs-12 rhs">
-                <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/portfolio-item26.jpg"
-                                class="img-responsive"></a>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/portfolio-item25.jpg"
-                                class="img-responsive"></a>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/portfolio-item24.jpg"
-                                class="img-responsive"></a>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/portfolio-item23.jpg"
-                                class="img-responsive"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 <!-- Quick shop -->
 <section class="best-product">
     <div class="container">
@@ -326,7 +284,7 @@
                                     <img src="<?php echo get_template_directory_uri() ?>/images/avtar-01.jpg ?>"
                                         class="img-responsive">
                                     <p class="blockquote"><span><i class="fa fa-quote-left"
-                                                aria-hidden="true"></i></span>POS site give me the formal guidens to the
+                                                aria-hidden="true"></i></span>Aboorvam site give me the formal guidens to the
                                         buy the products of my own taste. And the products dispatched on time. Excellent
                                         effort team</p>
                                 </div>
@@ -337,7 +295,7 @@
                                     <img src="<?php echo get_template_directory_uri() ?>/images/avtar-02.jpg ?>"
                                         class="img-responsive">
                                     <p class="blockquote"><span><i class="fa fa-quote-left"
-                                                aria-hidden="true"></i></span>POS site give me the formal guidens to the
+                                                aria-hidden="true"></i></span>Aboorvam site give me the formal guidens to the
                                         buy the products of my own taste. And the products dispatched on time. Excellent
                                         effort team</p>
                                 </div>
@@ -348,7 +306,7 @@
                                     <img src="<?php echo get_template_directory_uri() ?>/images/avtar-03.jpg ?>"
                                         class="img-responsive">
                                     <p class="blockquote"><span><i class="fa fa-quote-left"
-                                                aria-hidden="true"></i></span>POS site give me the formal guidens to the
+                                                aria-hidden="true"></i></span>Aboorvam site give me the formal guidens to the
                                         buy the products of my own taste. And the products dispatched on time. Excellent
                                         effort team</p>
                                 </div>
@@ -408,47 +366,6 @@
                             </ol>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Our brands -->
-<section class="brands">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h4 class="text-center font-weight-bold">OUR CLIENTS</h4>
-                <div class="brands_slider_container">
-                    <div class="owl-carousel owl-theme brands_slider">
-
-                        <div class="brands_item d-flex flex-column justify-content-center">
-                            <img src="<?php echo get_template_directory_uri()?>/images/partner1.png" alt="">
-                        </div>
-
-                        <div class="brands_item d-flex flex-column justify-content-center"><img
-                                src="<?php echo get_template_directory_uri()?>/images/partner2.png" alt="">
-                        </div>
-
-                        <div class="brands_item d-flex flex-column justify-content-center"><img
-                                src="<?php echo get_template_directory_uri()?>/images/partner3.png" alt="">
-                        </div>
-
-                        <div class="brands_item d-flex flex-column justify-content-center"><img
-                                src="<?php echo get_template_directory_uri()?>/images/partner4.png" alt="">
-                        </div>
-
-                        <div class="brands_item d-flex flex-column justify-content-center"><img
-                                src="<?php echo get_template_directory_uri()?>/images/partner5.png" alt="">
-                        </div>
-
-                        <div class="brands_item d-flex flex-column justify-content-center"><img
-                                src="<?php echo get_template_directory_uri()?>/images/partner6.png" alt="">
-                        </div>
-                    </div> <!-- Brands Slider Navigation -->
-                    <div class="brands_nav brands_prev"><i class="fas fa-chevron-left"></i></div>
-                    <div class="brands_nav brands_next"><i class="fas fa-chevron-right"></i></div>
                 </div>
             </div>
         </div>
