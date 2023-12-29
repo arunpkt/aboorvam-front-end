@@ -318,7 +318,7 @@
 
             <div class="col-md-8 col-sm-12 col-xs-12">
                 <div class="recent_posts">
-                    <h4>LATEST NEWS</h4>
+                    <h3>LATEST NEWS</h3>
                     <div class="row">
                         <?php 
                                 // the query

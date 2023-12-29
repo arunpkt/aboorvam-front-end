@@ -525,11 +525,12 @@ section.best-product .woocommerce.columns-3.quick-sale {
     padding: 30px 25px;
     margin-top: 50px;
 }
-.customer_pod h3 , div.recent_posts h4{
+.customer_pod h3, div.recent_posts h4, .recent_posts h3{
     font-size: 16px;
     font-weight: 600;
     display: inline-block;
 }
+
 .customer_pod p.blockquote {
     font-size: 15px;
     color: #797979;

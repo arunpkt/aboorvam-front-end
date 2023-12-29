@@ -92,8 +92,8 @@
         border-bottom: none;
     }
     header a.logo img {
-        width: 60px;
-        height: auto;
+        width: 80px;
+        height: 50px;
     }
 
     .best-selling.woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product {
