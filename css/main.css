@@ -791,3 +791,12 @@ form.woocommerce-form.woocommerce-form-login.login .form-check-input {
 .woocommerce .woocommerce-form-login input#rememberme {
     width: 2%;
 }
+.woocommerce-page div.product div.images {
+    float: left;
+    width: 30%;
+}
+.woocommerce div.product div.summary {
+    float: right;
+    width: 69%;
+    clear: none;
+}

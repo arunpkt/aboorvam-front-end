@@ -63,7 +63,7 @@
                             </div>  
                         </div>
                         <div class="row mt-3">
-                                <div class="col-md-12 float-right float-right text-right p-0">
+                                <div class="col-md-12 float-right text-right p-0">
                                     <div class="col-md-12 p-0">
                                         <div class="navbar-collapse collapse alt-font" id="navbar-collapse-toggle-1">
                                             <?php

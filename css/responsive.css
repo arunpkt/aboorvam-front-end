@@ -187,6 +187,12 @@
     .best-product .rhs {
         margin-top: 30px;
     }
+    section.hero_carousal {
+        margin-top: 0px;
+    }
+    .navbar {
+        padding-bottom: 0;
+    }
 }
 @media screen and (max-height: 320px) {
     nav.navbar.bootsnav.no-full .navbar-collapse {
