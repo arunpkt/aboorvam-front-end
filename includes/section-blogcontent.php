@@ -10,13 +10,14 @@
                   $firstname = get_the_author_meta('first_name');
                   $lastname = get_the_author_meta('last_name');
                 ?> 
-                <p class="bold mt-3">Authored by : <?php echo $firstname . ' ' . $lastname;?> </p>
-                <p class="text-info"><?php echo get_the_date(); ?></p>
+                <p class="bold mt-3">Authored by : <?php echo $firstname . ' ' . $lastname;?>
+                 / 
+                <?php echo get_the_date(); ?></p>  
                 <p><?php the_content(); ?></p>
 
                 <?php
-                  if($tags) :
-                  $tags = get_the_tags();?>
+                  $tags = get_the_tags();
+                  if($tags) :?>
                   <p>Tags : 
                   <?php
                   foreach($tags as $tag) : 

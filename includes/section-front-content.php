@@ -193,7 +193,7 @@
 </section>
 
 <!-- Quick shop -->
-<section class="quick-shop1 mob_padding">
+<!-- <section class="quick-shop1 mob_padding">
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-12 col-xs-12">
@@ -210,10 +210,10 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- category shop -->
-<section class="cat-shop">
+<!-- <section class="cat-shop">
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-12 col-xs-12 lhs">
@@ -262,7 +262,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 <section class="customer_speaks">

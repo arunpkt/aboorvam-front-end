@@ -51,7 +51,7 @@
     <!-- Footer bottom -->
     <footer class="footer_bottom">
         <div class="container">
-            <p>Copyright @2021 <span>Aboorvam Food Products</span>. All rights reserved.</p>
+            <p>Copyright @2024 <span>Aboorvam Food Products</span>. All rights reserved.</p>
         </div>
     </footer> 
 

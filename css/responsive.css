@@ -91,6 +91,10 @@
     header.sticky nav ul.nav > li.dropdown > div.dropdown-menu > a:last-child {
         border-bottom: none;
     }
+    header a.logo img {
+        width: 60px;
+        height: auto;
+    }
 
     .best-selling.woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product {
         width: 100%;
@@ -192,6 +196,17 @@
     }
     .navbar {
         padding-bottom: 0;
+    }
+    section {
+        padding: 0 0;
+        overflow: hidden;
+    }
+    .navbar-toggler {
+        margin: 0 0;
+    }
+    .hero_carousal .navbar-toggler {
+        margin: 10px 10px;
+        padding: 0 0;
     }
 }
 @media screen and (max-height: 320px) {

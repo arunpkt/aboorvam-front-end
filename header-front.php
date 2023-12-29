@@ -25,8 +25,8 @@
             <div class="container nav-header-container">
                 <!-- start logo -->
                 <div class="col-md-12 p-0">
-                    <div class="col-md-3 p-0 float-left">
-                        <a href="/" title="" class="logo navbar-brand">
+                    <div class="col-md-3 p-0 float-left d-flex w-100">
+                        <a href="/" title="" class="logo navbar-brand w-75">
                             <img src="<?php echo get_template_directory_uri() ?>/images/logo.png" alt="POS Logo"
                                 class="logo-white">
                         </a>

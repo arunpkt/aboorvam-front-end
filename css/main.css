@@ -81,13 +81,16 @@ header nav .nav-header-container {
     margin-right: 0;
     float: right;
     border: none;
-    padding: .25rem .75rem;
+    /* padding: .25rem .75rem; */
     font-size: 1.25rem;
     line-height: 1;
     background-color: transparent;
     border: 1px solid transparent;
     border-radius: .25rem;
     margin: 10px auto;
+}
+.home .navbar-toggler {
+    padding: .25rem .75rem;
 }
 .navbar-collapse {
     padding-left: 0;
@@ -115,7 +118,8 @@ header nav ul.nav > li > a {
     letter-spacing: 0.015em;
 }
 header nav ul.nav > li.current-menu-item > a {
-    font-weight: 600;
+    font-weight: 800;
+    color: #367634;
 }
 header ul#menu-top-menu {
     float: right;
@@ -347,7 +351,6 @@ p.create-account .woocommerce-form__label{
 section.hero_carousal {
     padding: 0px;
     height: auto;
-    margin-top: 20px;
 }
 section.hero_carousal .carousel-indicators li {
     box-sizing: content-box;
@@ -539,6 +542,10 @@ section.best-product .woocommerce.columns-3.quick-sale {
     text-align: left;
     display: block;
 }
+section.customer_speaks {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
 /* Recent posts */
 .post_content {
     padding: 20px 20px;
@@ -574,7 +581,7 @@ section.best-product .woocommerce.columns-3.quick-sale {
 
 .footer img {
     max-width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .footer h4 {
@@ -590,7 +597,7 @@ section.best-product .woocommerce.columns-3.quick-sale {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding-right: 75px;
 }
 
@@ -606,7 +613,7 @@ section.best-product .woocommerce.columns-3.quick-sale {
 
 .footer ul li {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .footer ul li a {
@@ -659,7 +666,7 @@ section.best-product .woocommerce.columns-3.quick-sale {
     margin-bottom: 0;
     font-weight: 400;
     font-size: 14px;
-    padding: 50px 20px;   
+    padding: 20px 20px;   
 }
 
 .footer_bottom p span {
