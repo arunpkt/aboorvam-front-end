@@ -142,3 +142,38 @@ add_action( 'init', 'remove_woocommerce_breadcrumbs' );
 //     $register_url = get_permalink( $register_page_id );
 //     return $register_url;
 // }
+
+
+// Contact us page
+//For making the form submit
+add_action("wp_ajax_enquiry", 'submit_enquiry_form');
+add_action("wp_ajax_nopriv_enquiry", 'submit_enquiry_form');
+function submit_enquiry_form(){
+    $data = [];
+    wp_parse_str($_POST['enquiry'], $data);
+    $to = get_option('admin_email');
+    $subject = 'Enquiry details from ' . $data['name'];
+    $header[] = "Content-type:text/html; Charset:UTF-8";
+    $header[] = "From:aboorvamfoodproducts@gmail.com";
+    $header[] = "Reply-to:" . $data['email'];
+
+    $message = '<table>';
+    foreach ($data as $index => $field) {
+        $message .= '<tr><td>' . $index . '</td><td>' . $field . '<td>';   
+    }
+    $message .= '</table>';
+    try {
+        if(wp_mail($to, $subject, $message, $header)) {
+            wp_send_json_success('Your mail has been sent successfully');
+        }
+    } catch (Exception $e) {
+        wp_send_json_error($e);
+    }
+}
+// Contact us short code
+function get_contact_us_form(){
+    echo get_template_part( 'includes/form', 'contact_us' );
+}
+add_action( 'init', function() { 
+    add_shortcode("contact_us_form",'get_contact_us_form');
+  } );

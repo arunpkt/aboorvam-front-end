@@ -4,7 +4,7 @@
     <div class="row">
 
         <div class="col-md-9 mb-md-0 mt-20">
-            <h2 class="text-center">Contact us</h2>
+            <!-- <h2 class="text-center">Contact us</h2> -->
             <div class="alert alert-success" id='success_id' style="display:none;">
               <p>Your enquiry has been submitted successfully</p>
             </div>
@@ -44,7 +44,7 @@
                     </div>
                 </div>
 
-                <div class="row mt-20">
+                <!-- <div class="row mt-20">
                     <div class="col-md-12">
                         <div class="md-form mb-0">
                           <label for="service" class="">Type of service*</label>
@@ -56,7 +56,7 @@
                             </select>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="row mt-20">
                     <div class="col-md-12">
                         <div class="md-form">
@@ -83,15 +83,15 @@
             <ul class="list-unstyled mb-0">
                 <li>
                 <i class="fa fa-home mt-10 fa-2x"></i>
-                    <p>Solinganallur, Chennai</p>
+                    <p>Ashok pillar, Chennai</p>
                 </li>
 
                 <li><i class="fa fa-phone mt-10 fa-2x"></i>
-                    <p>+91 9791913649</p>
+                    <p>+91 9791473952</p>
                 </li>
 
                 <li><i class="fa fa-envelope mt-10 fa-2x"></i>
-                    <p>contact@mdbootstrap.com</p>
+                    <p>aboorvamfoodproducts@gmail.com</p>
                 </li>
             </ul>
         </div>

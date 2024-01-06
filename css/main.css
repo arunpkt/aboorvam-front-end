@@ -817,3 +817,6 @@ form.woocommerce-form.woocommerce-form-login.login .form-check-input {
     width: 69%;
     clear: none;
 }
+.alert p {
+    margin-bottom: 0;
+}
