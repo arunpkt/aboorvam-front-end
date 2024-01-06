@@ -135,3 +135,10 @@ function remove_woocommerce_breadcrumbs() {
     remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0 );
 }
 add_action( 'init', 'remove_woocommerce_breadcrumbs' );
+// Regsistration link
+// add_filter( 'register_url', 'custom_register_url' );
+// function custom_register_url( $register_url )
+// {
+//     $register_url = get_permalink( $register_page_id );
+//     return $register_url;
+// }

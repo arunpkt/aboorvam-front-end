@@ -1,4 +1,3 @@
-
 /*
   Menu
 */
@@ -311,6 +310,16 @@ h6.footer.logo {
 }
 
 /*woo commerce*/
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+    float: left;
+    width: 48%;
+    max-width: 48%;
+}
+.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+    float: right;
+    width: 48%;
+    max-width: 48%;
+}
 .woocommerce-input-wrapper {
     width: 100%;
     display: block;
@@ -525,11 +534,12 @@ section.best-product .woocommerce.columns-3.quick-sale {
     padding: 30px 25px;
     margin-top: 50px;
 }
-.customer_pod h3 , div.recent_posts h4{
+.customer_pod h3, div.recent_posts h4, .recent_posts h3{
     font-size: 16px;
     font-weight: 600;
     display: inline-block;
 }
+
 .customer_pod p.blockquote {
     font-size: 15px;
     color: #797979;
